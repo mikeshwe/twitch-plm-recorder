@@ -1,0 +1,30 @@
+# Raw overnight recordings (large + personal health data — never commit)
+analysis/twitch_*.csv
+analysis/*.calibration.json
+analysis/*_events.csv
+analysis/*_summary.txt
+analysis/*_overview.png
+analysis/*_annotated.png
+
+# Night log has personal info — keep local only
+analysis/night_log.csv
+
+# Keep sample outputs (synthetic data, safe to share)
+!analysis/sample_overview.png
+!analysis/app_screenshot.png
+
+# Oura token
+analysis/.env
+
+# Xcode
+*.xcworkspace/xcuserdata
+*.xcodeproj/xcuserdata
+*.xcodeproj/project.xcworkspace/xcuserdata
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store

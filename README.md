@@ -27,7 +27,7 @@ Single-screen SwiftUI app that:
 
 ### App screenshot
 
-![App screenshot](analysis/app_screenshot.jpg)
+<img src="analysis/app_screenshot.jpg" width="150"/>
 
 ---
 
